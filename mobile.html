@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="stylesp.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="mobile">
+         <div class="top"></div>
+         <div class="bottom"></div>
+         <div class="screen">
+             <img src="darkbg2.jpg" >
+             <h2>8:40<span>PM</span><br><span>1st Aug,2020</span></h2>
+             <ul>
+                 <li><i class="fa fa-phone" aria-hidden="true"></i></li>
+                 <li><i class="fa fa-comment-o" aria-hidden="true"></i></li>
+                 <li><i class="fa fa-picture-o" aria-hidden="true"></i></li>
+                 <li><i class="fa fa-camera" aria-hidden="true"></i></li>
+             </ul>
+         </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+         $(document).ready(function()
+         {
+             $('.bottom').click(function()
+             {
+                 $('.screen').toggleClass('active')
+             })
+         })
+    </script>
+</body>
+</html>
